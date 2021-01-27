@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
                             .post(requestBody)
                             .build();
                     Response response = client.newCall(request).execute();
-                    String responceData = response.body().string();
+                    String responseData = response.body().string();
                 }catch (Exception e){
                     e.printStackTrace();
                 }

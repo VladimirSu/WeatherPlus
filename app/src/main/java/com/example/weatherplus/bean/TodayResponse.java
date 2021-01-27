@@ -2,7 +2,7 @@ package com.example.weatherplus.bean;
 
 import java.util.List;
 
-public class analysisJson {
+public class TodayResponse {
 
 
     private List<HeWeather6DTO> HeWeather6;
@@ -45,7 +45,7 @@ public class analysisJson {
 
             private String adminArea;
 
-            private String cnty;
+            private String city;
 
             private String lat;
 
@@ -67,8 +67,8 @@ public class analysisJson {
                 return adminArea;
             }
 
-            public String getCnty() {
-                return cnty;
+            public String getCity() {
+                return city;
             }
 
             public String getLat() {

@@ -1,2 +1,3 @@
+include ':MVP Library'
 include ':app'
 rootProject.name = "Weather Plus"
